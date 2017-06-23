@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+body{
+	background-color: #D3D3D3;
+	
+}
+.nav_personalizada{
+	background-color: #000080;
+
+	}
+.inline{
+	display: inline;
+}
+
+.img_dinheiro{
+	width: 50px;
+	height: 50px;
+	margin-top: -15px;
+}
+
+.input_pesquisa{
+	margin-top: 13px;
+	width: 300px;
+}
+.btn-alinhamento{
+	margin-right: 50px;
+	margin-top: 5px;
+
+}
+
+
+li{
+	margin: 8px;
+	
+}
+
+
+
+.img-alinhamento{
+	margin: auto;
+	margin-top: 50px;
+}
+
+.rodape{
+	position: fixed;
+	height: 70px;
+	color: white;
+	bottom: 0;
+	background-color: #696969;
+	width: 100%;
+}
+@media screen and (max-width: 768px){
+	.rodape{
+		position:absolute;
+		height: 70px;
+		color: white;
+		bottom: 0;
+		background-color: #696969;
+		width: 100%;
+	}
+}
+
+.footer_texto{
+	text-align:	center;
+	margin-top: 6px;
+}
+
+p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	
+	
+}
+
+
+h1, h2, h3{
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+.navbar-default .navbar-nav>li>a{
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	
+}
+
+
+.navbar-default .navbar-nav>li>a:visited{
+	color: white;
+	border: none;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #FF4500;
+	border: none;
+	}
+.panel-personalizado{
+	text-align: center;
+	color: 	#008B8B;
+	font-size: 25px;
+
+}
+
+
+.formulario{
+	margin-top: 70px;
+}
+.fundo_formulario{
+	background-color:#C0C0C0;
+	padding: 30px;
+
+}
+.label_formulario{
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	color: 	#000000;
+
+}
+.registro{
+	font-size: 25px;
+}
+.panel-personalizado-operacao{
+	color: 	green;
+	font-size: 25px;
+
+}
+.center{
+	text-align: center;
+}
+.busca_operacoes{
+color: #008B8B;
+}
+.alinhamento_historico{
+	margin-bottom: 30px;
+}
+.rodape_rolagem{
+	position: relative;
+	height: 70px;
+	color: white;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #696969;
+	width: auto;
+}
+.tamanho_dinheiro{
+	width: 200px;
+	height:200px;
+	margin: auto;
+}
+.procurar-produtos{
+	
+	background-color: #D3D3D3;
+	color: green;
+
+}
+.vendas{
+	color: black;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+	
+}
+.destaque_compra{
+	color: #006400;
+	font-size: 30px;
+
+}
+.erro_input{
+	color: red;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	text-align;
+}
+
+
+.registro_pedido{
+	font-size: 40px;
+}
+#content {
+	padding-bottom:100px; /* Height of the footer element */
+}
